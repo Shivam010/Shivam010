@@ -4,8 +4,8 @@ I am Shivam Rathore, goes by the username @Shivam010, in most of the places. I a
 a Technology Enthusiast, Open Source Contributor, Developer & Programming Geek 
 who aims to work and contribute significantly in the field of Computer Science. 
 
-![](./icons/plex.svg) ___I believe in loyalty and transparency. And it is a two-way street, 
-                if I’m asking for it from you then you’re getting it from me.___
+___I believe in loyalty and transparency. And it is a two-way street, 
+             if I’m asking for it from you then you’re getting it from me.___
 
 Life so far
 -----------
