@@ -1,21 +1,15 @@
 __Hello! 👋__
 ==========
-I am Shivam Rathore, goes by the username @Shivam010, in most of the places. I am
-a Technology Enthusiast, Open Source Contributor, Developer & Programming Geek 
-who aims to work and contribute significantly in the field of Computer Science. 
+My name is Shivam Rathore, I goes by the username ___@Shivam010___, in most of the places. I am
+a technology enthusiast and an open source contributor who currently, works as a Senior Software 
+Engineer at ___@Appointy___, an online scheduling platform. 
 
 ___I believe in loyalty and transparency. And it is a two-way street, 
              if I’m asking for it from you then you’re getting it from me.___
 
-Life so far
------------
-I have completed my Bachelor's degree in Computer Science (B.Tech) and have been 
-an integral part of the turning around process of product development at 
-[Appointy](https://appointy.com), ever since then. 
-
-I am, also an active freelance developer in my part-time, helping organizations and 
-individuals achieve their goal. Along with that I also contribute to the open source 
-projects.
+I also work as a freelancer and ghost worker, helping individuals and organisations achieve their goals. 
+Got something to discuss, any project idea, any other help you need? or maybe wanna just say Hi!
+___Reach out!___
 
 ![]()
 ---
@@ -26,8 +20,8 @@ projects.
   </i><b>
   
   <p align="center">
-    <a href="mailto:shivam.rathore010@gmail.com" alt="Gmail">
-      <img src="https://github.com/Shivam010/Shivam010/raw/master/icons/gmail.svg" alt="shivam.rathore010@gmail.com">
+    <a href="mailto:hey@shivam010.in" alt="Mail">
+      <img src="https://github.com/Shivam010/Shivam010/raw/master/icons/gmail.svg" alt="hey@shivam010.in">
     </a>
   &nbsp;
     <a href="https://twitter.com/010Shivam" alt="Twitter">
