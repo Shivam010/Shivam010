@@ -1,15 +1,16 @@
 __Hello! 👋__
 ==========
-My name is Shivam Rathore, I goes by the username ___@Shivam010___, in most of the places. I am
-a technology enthusiast and an open source contributor who currently, works as a Senior Software 
+My name is Shivam Rathore, I go by the username ___@Shivam010___, in most of the places. I am
+a technology enthusiast and an open-source contributor who currently, works as a Senior Software 
 Engineer at ___@Appointy___, an online scheduling platform. 
 
-___I believe in loyalty and transparency. And it is a two-way street, 
+___I believe in loyalty and transparency. And I think it is a two-way street, 
              if I’m asking for it from you then you’re getting it from me.___
 
 I also work as a freelancer and ghost worker, helping individuals and organisations achieve their goals. 
-Got something to discuss, any project idea, any other help you need? or maybe wanna just say Hi!
-___Reach out!___
+Got something to discuss, any project idea, any other help you need? or maybe wanna just say ___Hello! 👋___
+
+___File your query [here](https://github.com/Shivam010/Shivam010/issues) or Reach out!👇___
 
 ![]()
 ---
@@ -20,8 +21,8 @@ ___Reach out!___
   </i><b>
   
   <p align="center">
-    <a href="mailto:hey@shivam010.in" alt="Mail">
-      <img src="https://github.com/Shivam010/Shivam010/raw/master/icons/gmail.svg" alt="hey@shivam010.in">
+    <a href="mailto:hello@shivam010.in" alt="Mail">
+      <img src="https://github.com/Shivam010/Shivam010/raw/master/icons/gmail.svg" alt="hello@shivam010.in">
     </a>
   &nbsp;
     <a href="https://twitter.com/010Shivam" alt="Twitter">
