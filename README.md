@@ -4,21 +4,40 @@ My name is Shivam Rathore, I go by the username ___@Shivam010___, in most of the
 a technology enthusiast and an open-source contributor who currently, works as a Senior Software 
 Engineer at ___@Appointy___, an online scheduling platform. 
 
-___I believe in loyalty and transparency. And I think it is a two-way street, 
-             if I’m asking for it from you then you’re getting it from me.___
+<p align="center">
+  <b><i>
+    I believe in loyalty, and I think it is a two-way street. If I’m asking <br/>
+    for it from you then you’re getting it from me.
+  </i></b>
+</p>
 
-I also work as a freelancer and ghost worker, helping individuals and organisations achieve their goals. 
-Got something to discuss, any project idea, any other help you need? or maybe wanna just say ___Hello! 👋___
+> Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.
+
+You give some and you take some, just as simple as it is. And it helps, I started with the same and currently, I am a maintainer of: 
+- __go-ReJSON__: A Golang client for RedisLabs' ReJSON module with support for multilple redis clients (redigo, go-redis). [:link:](https://github.com/nitishm/go-rejson)
+- __go-freeGeoIP__: A Golang client for Free IP Geolocation API with inbuilt cache support to overcome the 15k per hour rate limit. [:link:](https://github.com/Shivam010/go-freeGeoIP)
+- __bypass-cors__: A proxy server to bypass CORS enabled server APIs. [:link:](https://github.com/Shivam010/bypass-cors)
+
+And also, a contributor to many open-source projects, some of them are:
+- __nitishm/vegeta-server__: A RESTful API server for vegeta, a load testing tool written in Go. [:link:](https://github.com/nitishm/vegeta-server)
+- __lib/pq__: A Pure Go Postgres driver for database/sql. [:link:](https://github.com/lib/pq)
+- __xqueries/xdb__: An experimental database with focus on a readable codebase before performance. [:link:](https://github.com/xqueries/xdb)
+- __blendle/zapdriver__: A blazing fast, Zap-based Stackdriver logging driver. [:link:](https://github.com/blendle/zapdriver)
+
+I am, also active on Gophers [Slack](https://invite.slack.golangbridge.org/), learning and helping users solve their problems whenever I can. 
+
+I also work as a freelancer and ghost worker, helping individuals and organisations achieve their goals. Got something to discuss, 
+any project idea, any other help you need? or maybe wanna just say ___Hello! 👋___
 
 ___File your query [here](https://github.com/Shivam010/Shivam010/issues) or Reach out!👇___
 
-![]()
----
-
+[]()
+-----
 <p align="center">
-  <b><i>
-    People find their paths in the strangest of ways. Let's find our own! <br>Let's connect.
-  </i><b>
+    <b><i>
+	    People find their paths in the strangest of ways. Let's find our own! <br>
+	    Let's connect <a href="https://shivam010.in">here</a>
+	</i></b>
   
   <p align="center">
     <a href="mailto:hello@shivam010.in" alt="Mail">
