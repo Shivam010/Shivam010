@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .in-between-tighter {
+        word-spacing: -0.5rem;
+    }
+    .in-between-tight {
+        word-spacing: -0.25rem;
+    }
+    .in-between-normal {
+        word-spacing: 0rem;
+    }
+    .in-between-wide {
+        word-spacing: 0.25rem;
+    }
+    .in-between-wider {
+        word-spacing: 0.5rem;
+    }
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: block;
+    src: url(/fonts/Open_Sans.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: block;
+    src: url(/fonts/Open_Sans_Italic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Brightwall';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(/fonts/Brightwall_Regular.woff2) format('woff2');
+}
+
+html {
+    min-width: 360px;
+    background: none;
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 160%;
+    word-spacing: 0.08rem;
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+pre {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.customCode {
+    @apply font-mono p-0.5 text-sm font-bold border-rang-700 rounded-lg border;
+}
+
+blockquote {
+    @apply border-l-4 border-l-pink-700 pl-4 italic py-2;
+}
+
+/* https://seek-oss.github.io/capsize/ */
+.capsized::before {
+    content: '';
+    /* margin-bottom: 0.8816em; */
+    display: table;
+}
+
+.capsized::after {
+    content: '';
+    margin-top: 0.5em;
+    display: table;
+}
