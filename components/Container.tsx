@@ -39,7 +39,7 @@ export function Container({
 
     const meta: Metadata = {
         title: 'Shivam Rathore – Shivam010',
-        description: `Software Developer • Rubik's Cube Solver • Free Time Doodler • Paper Plane Enthusiast • Potterhead • Marvel Fan`,
+        description: `Software Developer • Free Time Doodler • Paper Plane Enthusiast • Rubik's Cuber • Potterhead • Marvel Fan`,
         image: 'https://shivamrathore.com/banner.png',
         ogType: 'website',
         ...metadata,

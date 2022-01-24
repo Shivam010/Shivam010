@@ -33,8 +33,8 @@ export default function Home() {
                     </Link>
                 </h1>
                 <h2 className="text-center mb-14 italic">
-                    "Software Developer • Cube Solver • Free Time Doodler •
-                    Paper Plane Pilot"
+                    "Software Developer • Free Time Doodler • Paper Plane
+                    Enthusiast • Rubik's Cuber • Potterhead • Marvel Fan"
                 </h2>
                 <div className="mb-10">
                     <p className="mb-6">
