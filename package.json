@@ -1,0 +1,39 @@
+{
+    "name": "shivam010",
+    "version": "1.0.0",
+    "description": "Personal Space",
+    "repository": "https://github.com/Shivam010/Shivam010.git",
+    "author": "Shivam Rathore <me@shivamrathore.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "copy": "cp ./LICENSE ./public/license",
+        "generate": "yarn copy && node ./scripts/generate-sitemap.mjs",
+        "dev": "yarn generate && next dev",
+        "build": "yarn generate && next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5.0",
+        "next": "^12.0.8",
+        "next-themes": "^0.0.15",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "tailwindcss": "^3.0.8"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.38",
+        "autoprefixer": "^10.4.1",
+        "eslint": "7.32.0",
+        "eslint-config-next": "11.1.0",
+        "postcss": "^8.4.5",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.4"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "arrowParens": "always",
+        "trailingComma": "all"
+    }
+}
