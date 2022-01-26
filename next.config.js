@@ -86,6 +86,10 @@ function securityHeaders() {
                     value: 'SAMEORIGIN',
                 },
                 {
+                    key: 'Permissions-Policy',
+                    value: 'camera=(), microphone=(), geolocation=()',
+                },
+                {
                     key: 'Content-Security-Policy',
                     // https://developers.google.com/web/fundamentals/security/csp
                     value: [
