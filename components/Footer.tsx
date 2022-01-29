@@ -57,7 +57,7 @@ export default function Footer() {
     let themeMode: string;
     if (mounted) {
         themeMode = resolvedTheme === 'dark' ? 'Dark' : 'Light';
-        themeMode = forcedTheme === 'dark' ? 'Dark' : themeMode;
+        themeMode = forcedTheme === 'dark' ? 'Strict Dark' : themeMode;
         themeMode += ' Mode';
         console.log(themeMode);
     }
