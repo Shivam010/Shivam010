@@ -70,7 +70,7 @@ export function ImageWithDescription({
     fillProps(imageProps.title);
     return (
         <>
-            <Image {...imageProps} />
+            <Image alt="" {...imageProps} />
             <div className="px-8 mx-auto pb-1 text-center italic text-rang-400 text-[0.7rem] leading-[1rem]">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
