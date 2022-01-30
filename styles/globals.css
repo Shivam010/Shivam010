@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .in-between-tighter {
-        word-spacing: -0.5rem;
-    }
-    .in-between-tight {
-        word-spacing: -0.25rem;
-    }
-    .in-between-normal {
-        word-spacing: 0rem;
-    }
-    .in-between-wide {
-        word-spacing: 0.25rem;
-    }
-    .in-between-wider {
-        word-spacing: 0.5rem;
-    }
-}
-
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -69,32 +51,30 @@ p {
     min-height: 100vh;
 }
 
-pre::-webkit-scrollbar {
-    display: none;
-}
-
-pre {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-
-.customCode {
-    @apply font-mono p-0.5 text-sm font-bold border-rang-700 rounded-lg border;
-}
-
 blockquote {
     @apply border-l-4 border-l-pink-700 pl-4 italic py-2;
 }
 
-/* https://seek-oss.github.io/capsize/ */
-.capsized::before {
-    content: '';
-    /* margin-bottom: 0.8816em; */
-    display: table;
+@-webkit-keyframes changingChar {
+    0% {
+        content: 'ᕦ(ツ)ᕤ';
+    }
+    50% {
+        content: 'e(ツ)ɘ';
+    }
 }
 
-.capsized::after {
-    content: '';
-    margin-top: 0.5em;
-    display: table;
+@keyframes changingChar {
+    0% {
+        content: 'ᕦ(ツ)ᕤ';
+    }
+    50% {
+        content: 'e(ツ)ɘ';
+    }
+}
+
+.char.anim:after {
+    -webkit-animation: changingChar 1s linear infinite alternate;
+    content: 'ᕦ(ツ)ᕤ';
+    animation: changingChar 1s linear infinite alternate;
 }
