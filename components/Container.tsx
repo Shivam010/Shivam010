@@ -11,6 +11,8 @@ export type Metadata = {
     image?: string;
     ogType?: 'website' | 'article';
     publishedOn?: Date;
+    canonicalUrlPath?: string;
+    canonicalUrlDomain?: string;
 };
 
 export function Container({
@@ -40,8 +42,14 @@ export function Container({
         description: `Software Developer • Free Time Doodler • Paper Plane Enthusiast • Rubik's Cuber • Potterhead • Marvel Fan`,
         image: 'https://shivamrathore.com/banner.png',
         ogType: 'website',
+        canonicalUrlPath: router.asPath,
+        canonicalUrlDomain: 'https://shivamrathore.com',
         ...metadata,
     };
+    if (meta.canonicalUrlDomain.endsWith('/'))
+        meta.canonicalUrlDomain = meta.canonicalUrlDomain.slice(0, -1);
+    if (!meta.canonicalUrlPath.startsWith('/'))
+        meta.canonicalUrlPath = '/' + meta.canonicalUrlPath;
 
     return (
         <>
@@ -55,11 +63,11 @@ export function Container({
                 <meta name="color-scheme" content="dark light" />
                 <meta
                     property="og:url"
-                    content={`https://shivamrathore.com${router.asPath}`}
+                    content={meta.canonicalUrlDomain + meta.canonicalUrlPath}
                 />
                 <link
                     rel="canonical"
-                    href={`https://shivamrathore.com${router.asPath}`}
+                    href={meta.canonicalUrlDomain + meta.canonicalUrlPath}
                 />
                 <meta property="og:type" content={meta.ogType} />
                 <meta property="og:site_name" content="Shivam Rathore" />

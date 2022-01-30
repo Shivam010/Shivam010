@@ -19,7 +19,7 @@ export default function Home() {
     };
 
     return (
-        <Container>
+        <Container metadata={{ canonicalUrlPath: '/' }}>
             <div className="mx-auto mb-16 max-w-3xl flex flex-col justify-center items-center">
                 <h1 className="font-logo text-[2.5rem] 2xs:text-5xl xs:text-6xl sm:text-7xl my-2 mx-auto">
                     {/* <h1 className="font-logo text-[2.75rem] xs:text-6xl sm:text-7xl lg:text-[5.5rem] xl:text-8xl mb-2 mx-auto"> */}
