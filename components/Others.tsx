@@ -40,12 +40,11 @@ export function BigButton({
                     ' font-logo text-2xl text-center ' +
                     className +
                     ' p-6 rounded-md ' +
-                    ' bg-rang-0 dark:bg-rang-800 ' +
-                    ' hover:text-rang-700 hover:dark:text-rang-200 ' +
-                    ' shadow-lg hover:shadow-md dark:shadow-sm hover:dark:shadow-inner ' +
-                    ' shadow-rang-200 dark:shadow-rang-700' +
-                    ' hover:bg-gradient-to-tl hover:from-rang-100 hover:via-rang-0 hover:to-rang-0 ' +
-                    ' hover:dark:from-rang-800 hover:dark:via-rang-900 hover:dark:to-rang-800 '
+                    ' bg-rang-800 ' +
+                    ' hover:text-rang-200 ' +
+                    ' shadow-sm hover:shadow-inner ' +
+                    ' shadow-rang-700' +
+                    ' hover:from-rang-800 hover:via-rang-900 hover:to-rang-800 '
                 }
                 rel={isExternal ? 'noopener noreferrer' : null}
                 target={isExternal ? '_blank' : null}

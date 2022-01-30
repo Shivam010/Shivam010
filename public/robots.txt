@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://shivamrathore.com/sitemap.xml
+Sitemap: https://shivam010.in/sitemap.xml

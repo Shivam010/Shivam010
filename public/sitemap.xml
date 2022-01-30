@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+   <url>
+      <loc>https://shivam010.in/404</loc>
+   </url>
+   <url>
+      <loc>https://shivam010.in/</loc>
+      <image:image>
+         <image:loc>https://shivam010.in/banner.png</image:loc>
+         <image:title>Shivam Rathore • Shivam010 • ᕦ(ツ)ᕤ • A Weird Enthusiastic Programmer</image:title>
+         <image:caption>Shivam Rathore • Shivam010 • ᕦ(ツ)ᕤ • A Weird Enthusiastic Programmer</image:caption>
+         <image:license>https://shivam010.in/license</image:license>
+      </image:image>
+      <image:image>
+         <image:loc>https://shivam010.in/logo.svg</image:loc>
+         <image:title>Shivam Logo</image:title>
+         <image:caption>Shivam Logo</image:caption>
+         <image:license>https://shivam010.in/license</image:license>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://shivam010.in/license</loc>
+   </url>
+</urlset>

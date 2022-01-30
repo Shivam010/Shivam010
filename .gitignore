@@ -59,6 +59,3 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
-
-# Generated File(s)
-sitemap.xml

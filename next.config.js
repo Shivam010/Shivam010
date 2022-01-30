@@ -47,7 +47,7 @@ function otherHeaders() {
                 },
                 {
                     key: 'X-Got-Some-Interesting-Idea',
-                    value: 'Contact me@shivamrathore.com',
+                    value: 'Contact me@shivam010.in',
                 },
             ],
         },
@@ -94,7 +94,7 @@ function securityHeaders() {
                     // https://developers.google.com/web/fundamentals/security/csp
                     value: [
                         'upgrade-insecure-requests; ',
-                        "default-src 'self' shivamrathore.com shivam010.in *.shivamrathore.com *.shivam010.in; ",
+                        "default-src 'self' shivam010.in shivam010.in *.shivam010.in *.shivam010.in; ",
                         "base-uri 'self'; ",
                         "child-src 'self' *.shivam010.in; ",
                         'connect-src *; ',

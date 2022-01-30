@@ -1,169 +1,84 @@
-import {
-    BigButton,
-    ExternalLink,
-    ImageWithDescription,
-} from 'components/Others';
-import me from 'public/me.png';
+import { BigButton, ExternalLink } from 'components/Others';
 import { Container } from 'components/Container';
-import Link from 'next/link';
 
-export default function Home() {
-    const externalLink = (
-        text: string,
-        href: string,
-        noitalic?: boolean,
-        nobold?: boolean,
-    ) => {
-        const fontStyle =
-            (noitalic ? ' not-italic ' : '') + (nobold ? '' : ' font-bold ');
-        return (
-            <ExternalLink href={href}>
-                <span
-                    className={
-                        'text-pink-700 hover:underline underline-offset-4 italic ' +
-                        fontStyle
-                    }
-                >
-                    {text}
-                </span>
-            </ExternalLink>
-        );
-    };
-
+export default function Index() {
     return (
-        <Container hideLogo hideThemeButton>
-            <div className="mx-auto mb-16 max-w-3xl flex flex-col justify-center items-center">
-                <h1 className="font-logo text-[2.5rem] 2xs:text-5xl xs:text-6xl sm:text-7xl my-2 mx-auto">
-                    {/* <h1 className="font-logo text-[2.75rem] xs:text-6xl sm:text-7xl lg:text-[5.5rem] xl:text-8xl mb-2 mx-auto"> */}
-                    <Link href="/">
-                        <a>
-                            <span className="text-pink-700 leading-relaxed">
-                                Shivam
-                            </span>{' '}
-                            Rathore
-                        </a>
-                    </Link>
+        <Container>
+            <div className="mt-16 mx-auto mb-16 max-w-3xl flex flex-col justify-center items-center">
+                <h1 className="font-logo text-4xl 2xs:text-[2.8rem] sm:text-6xl xl:text-8xl">
+                    <ExternalLink href="https://shivamrathore.com">
+                        Hello, I'm{' '}
+                        <span className="text-pink-700 leading-relaxed">
+                            Shivam
+                        </span>
+                    </ExternalLink>
                 </h1>
-                <h2 className="text-center mb-14 italic">
-                    "Software Developer • Free Time Doodler • Paper Plane Pilot
-                    • Rubik's Cuber"
+                <h2 className="mb-10 sm:mb-12 pr-12 sm:pr-16 italic text-rang-300 text-xs xs:text-base sm:text-2xl">
+                    A weird - but - enthusiastic programmer{' '}
+                    <span className="char anim px-1 absolute font-bold" />
                 </h2>
-                <div className="mb-10">
-                    <p className="mb-6">
-                        <span className="text-5xl -ml-2 -mt-6 pr-2 float-left animate-hi">
+                <div className="sm:px-6">
+                    <p className="mb-5">
+                        <span className="text-5xl -ml-2 pr-2 float-left animate-hi">
                             👋
                         </span>{' '}
-                        Hello, my name is Shivam Rathore, and I go by the
-                        username{' '}
-                        {externalLink(
-                            "'Shivam010'",
-                            'https://github.com/Shivam010',
-                        )}
-                        , on most of the platforms. By the day, I work as a
-                        senior Software Developer at{' '}
-                        {externalLink(
-                            'Appointy IT Pvt Ltd',
+                        By the day, I work as a Sr. Software Engineer at{' '}
+                        {externalLinkWrapper(
                             'https://appointy.com',
-                            true,
+                            'Appointy',
                         )}{' '}
-                        but as the night gathers, my watch begins either as an{' '}
-                        {externalLink(
-                            'Open-Source Developer',
+                        and, as the night gathers, my watch begins either as an{' '}
+                        {externalLinkWrapper(
                             'https://github.com/Shivam010',
-                            true,
+                            'Open-Source Developer',
                         )}{' '}
-                        or as a <i>serial binge - watcher</i>.
-                    </p>
-                    <blockquote className="mb-6" title="Shivam010">
-                        <div title="Belief" className="cursor-default">
-                            I believe in{' '}
-                            <span className="text-pink-700 font-bold">
-                                Loyalty.
-                            </span>{' '}
-                            For me, Loyalty is a two-way street. If I'm asking
-                            for it from you then you're getting it from me.
-                            <br />I also, believe in{' '}
-                            <span className="text-pink-700 font-bold">
-                                Equality
-                            </span>{' '}
-                            because Even the smallest creatures like Ants can
-                            kill, so we can not underestimate anyone. We all are
-                            equal.
-                        </div>
-                    </blockquote>
-                    <p className="mb-5">
-                        I love to experiment with different: ideas,
-                        technologies, and paper planes. Also, I doodle nuisance,
-                        sometimes, mostly when I am borred and/or in some long
-                        meetings :P
+                        or as a serial binge-watcher. And Just to make it clear,
+                        I am a die-hard Harry Potter and Marvel fan.
                     </p>
                     <p className="mb-5">
-                        You can find me Flying different-different kinds of{' '}
-                        {externalLink(
-                            'Paper Planes',
-                            'https://en.wikipedia.org/wiki/Paper_plane',
-                            true,
+                        Taking about Open source: Contributing to open source
+                        has taught me many things and is still teaching me.
+                        Today, I maintain{' '}
+                        {externalLinkWrapper(
+                            'https://github.com/Shivam010',
+                            'few projects',
                         )}{' '}
-                        a lot. At any point of time, I'll have at least one
-                        paper plane ready to fly at my desk.
+                        and contribute to a number of them.
                     </p>
                     <p className="mb-5">
-                        Also, I can solve{' '}
-                        {externalLink(
-                            "2x2, 3x3, 4x4 and even 5x5 Rubik's Cube,",
-                            "https://en.wikipedia.org/wiki/Rubik's_Cube",
-                            true,
+                        I also, work as a freelancer developer and ghost worker,
+                        helping individuals and organisations create and/or
+                        solve their problems and challenges.
+                    </p>
+                    <p>
+                        Got something to discuss, any project idea, any other
+                        help you need? or maybe wanna just say Hello! 👋 Feel
+                        free to{' '}
+                        {externalLinkWrapper(
+                            'mailto:hello@shivam010.in',
+                            'Reach out to me!',
                         )}{' '}
-                        with the 3x3 cube, on an average, in roughly{' '}
-                        <i>~2 minutes.</i>
+                        Also, do Checkout my new website:
                     </p>
-                    <h2
-                        id="why"
-                        className="w-full font-logo text-3xl sm:text-4xl mt-14 mb-7"
-                    >
-                        why Open Source ?
-                    </h2>
-                    <p className="mb-5">
-                        Contributing to open source has taught me many things
-                        and is still teaching me. And that is the main reason, I
-                        am inclined to it. Today, I maintain three projects and
-                        contribute to a number of them.
-                    </p>
-                    <p className="mb-5">
-                        It has also, introduced me the world of freelancing, one
-                        of my first independent contract was due to the same. I
-                        also, work as a freelancer and ghost worker, helping
-                        individuals and organisations create and/or solve their
-                        problems {'&'} challenges.
-                        <br />
-                        <span className="text-xs text-rang-600 dark:text-rang-300 italic">
-                            * professionally speaking, both type of jobs exist
-                        </span>
-                    </p>
-                    <div className="mx-auto mt-8 items-center w-11/12 sm:w-3/4">
-                        <ImageWithDescription
-                            src={me}
-                            placeholder="blur"
-                            description="Shivam Rathore at Vagator Beach, Goa, India"
-                        />
-                    </div>
                 </div>
                 <BigButton
                     isExternal
-                    href="https://9works.tk"
-                    className="w-64 mx-auto"
+                    href="https://shivamrathore.com"
+                    className="w-64 mx-auto mt-14"
                 >
-                    Explore 9works
+                    New web Presense
                 </BigButton>
             </div>
         </Container>
     );
 }
 
-export function getStaticProps() {
-    return {
-        props: {
-            strictDarkMode: true,
-        },
-    };
+function externalLinkWrapper(href: string, child: string) {
+    return (
+        <ExternalLink href={href}>
+            <span className="relative -bottom-[1px] font-bold text-pink-700 italic hover:underline underline-offset-4">
+                {child}
+            </span>
+        </ExternalLink>
+    );
 }
