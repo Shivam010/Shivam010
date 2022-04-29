@@ -18,15 +18,18 @@ module.exports = {
                 source: '/favicon.ico',
                 destination: '/favicons/favicon.ico',
             },
+            {
+                source: '/resume',
+                destination: '/resume.v3.pdf',
+            },
+            {
+                source: '/resume.pdf',
+                destination: '/resume.v3.pdf',
+            },
         ];
     },
     redirects: async () => {
         return [
-            {
-                source: '/resume',
-                destination: '/resume.pdf',
-                permanent: true,
-            },
             {
                 source: '/me',
                 destination: '/me.png',
@@ -117,7 +120,7 @@ function cacheControlHeaders() {
         '/license',
         '/logo.svg',
         '/banner.png',
-        '/resume.pdf',
+        '/resume.:version.pdf',
         '/fonts/:slug*',
         '/images/:slug*',
         '/favicons/:slug*',
