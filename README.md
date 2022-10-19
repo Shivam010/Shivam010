@@ -17,7 +17,7 @@ You give some and you take some, just as simple as it is. And it helps, I starte
 
 - **go-ReJSON**: A Golang client for RedisLabs' ReJSON module with support for multilple redis clients (redigo, go-redis). [:link:](https://github.com/nitishm/go-rejson)
 - **upload**: An easy and portable way to interact with cloud storage in Golang. [:link:](https://github.com/Shivam010/upload)
-- **go-freeGeoIP**: A Golang client for Free IP Geolocation API with inbuilt cache support to overcome the 15k per hour rate limit. [:link:](https://github.com/Shivam010/go-freeGeoIP)
+- **go-freeGeoIP**: A Golang client for Free IP Geolocation API with an inbuilt support for caching the location data to overcome the per hour rate limit [:link:](https://github.com/Shivam010/go-freeGeoIP)
 - **bypass-cors**: A proxy server to bypass CORS enabled server APIs. [:link:](https://github.com/Shivam010/bypass-cors)
 â€“ **protoc-gen-redact**: A protoc plugin to redact field values for GRPC client calls to the server. [:link:](https://github.com/Shivam010/protoc-gen-redact)
 
@@ -40,7 +40,7 @@ any project idea, any other help you need? or maybe wanna just say **_Hello! ðŸ‘
 <p align="center">
     <b><i>
 	    People find their paths in the strangest of ways. Let's find our own! <br>
-	    <a href="https://shivam010.in">Let's connect</a>
+	    <a href="https://shivamrathore.com">Let's connect</a>
 	</i></b>
 </p>
 
