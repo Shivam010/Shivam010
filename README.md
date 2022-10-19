@@ -16,8 +16,10 @@ Engineer at **_@Appointy_**, an online scheduling platform.
 You give some and you take some, just as simple as it is. And it helps, I started with the same and currently, I am a maintainer of:
 
 - **go-ReJSON**: A Golang client for RedisLabs' ReJSON module with support for multilple redis clients (redigo, go-redis). [:link:](https://github.com/nitishm/go-rejson)
+- **upload**: An easy and portable way to interact with cloud storage in Golang. [:link:](https://github.com/Shivam010/upload)
 - **go-freeGeoIP**: A Golang client for Free IP Geolocation API with inbuilt cache support to overcome the 15k per hour rate limit. [:link:](https://github.com/Shivam010/go-freeGeoIP)
 - **bypass-cors**: A proxy server to bypass CORS enabled server APIs. [:link:](https://github.com/Shivam010/bypass-cors)
+– **protoc-gen-redact**: A protoc plugin to redact field values for GRPC client calls to the server. [:link:](https://github.com/Shivam010/protoc-gen-redact)
 
 And also, a contributor to many open-source projects, some of them are:
 
