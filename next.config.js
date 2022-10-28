@@ -19,6 +19,14 @@ module.exports = {
                 destination: '/favicons/favicon.ico',
             },
             {
+                source: '/banner.png',
+                destination: '/banner.webp',
+            },
+            {
+                source: '/me.png',
+                destination: '/me.webp',
+            },
+            {
                 source: '/resume',
                 destination: '/resume.v3.pdf',
             },
@@ -32,7 +40,7 @@ module.exports = {
         return [
             {
                 source: '/me',
-                destination: '/me.png',
+                destination: '/me.webp',
                 permanent: true,
             },
         ];
@@ -116,10 +124,10 @@ function securityHeaders() {
 function cacheControlHeaders() {
     // These pages and resources are cached as immutable
     const cachedSources = [
-        '/me.png',
+        '/me.webp',
         '/license',
         '/logo.svg',
-        '/banner.png',
+        '/banner.webp',
         '/resume.:version.pdf',
         '/fonts/:slug*',
         '/images/:slug*',

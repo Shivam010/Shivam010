@@ -4,7 +4,7 @@ import {
     ImageWithDescription,
 } from 'components/Others';
 import { Container } from 'components/Container';
-import drongoBird from 'public/images/A_flying_greater_racket-tailed_drongo.jpeg';
+import drongoBird from 'public/images/A_flying_greater_racket-tailed_drongo.webp';
 
 export default function NotFound() {
     return (
