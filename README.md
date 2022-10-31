@@ -1,6 +1,7 @@
 # **Hello! 👋**
 
-My name is Shivam Rathore, I go by the username **_@Shivam010_**, in most of the places. I am
+My name is Shivam Rathore, I go by the username [**_@Shivam010_**]() or 
+[**_@010Shivam_**](https://twitter.com/intent/follow?user_id=701765134574817280), in most of the places. I am
 a technology enthusiast and an open-source contributor who currently, works as a Senior Software
 Engineer in a startup.
 
