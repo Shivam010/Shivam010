@@ -22,23 +22,21 @@ export default function Index() {
                         <span className="text-5xl -ml-2 pr-2 float-left animate-hi">
                             👋
                         </span>{' '}
-                        By the day, I work as a Sr. Software Engineer at{' '}
+                        By the day, I work as a Sr. Software Engineer in a
+                        startup and, as the night gathers, my watch begins
+                        either as a{' '}
                         {externalLinkWrapper(
-                            'https://appointy.com',
-                            'Appointy',
+                            'https://twitter.com/intent/follow?user_id=701765134574817280',
+                            '#build-in-public',
                         )}{' '}
-                        and, as the night gathers, my watch begins either as an{' '}
-                        {externalLinkWrapper(
-                            'https://github.com/Shivam010',
-                            'Open-Source Developer',
-                        )}{' '}
-                        or as a serial binge-watcher. And Just to make it clear,
-                        I am a die-hard Harry Potter and Marvel fan.
+                        developer on Twitter or as a serial binge-watcher. And
+                        Just to make it clear, I am a die-hard Harry Potter and
+                        Marvel fan.
                     </p>
                     <p className="mb-5">
-                        Taking about Open source: Contributing to open source
-                        has taught me many things and is still teaching me.
-                        Today, I maintain{' '}
+                        I also contribute to open source projects. Contributing
+                        to open source has taught me many things and is still
+                        teaching me. Today, I maintain{' '}
                         {externalLinkWrapper(
                             'https://github.com/Shivam010',
                             'few projects',
@@ -46,8 +44,8 @@ export default function Index() {
                         and contribute to a number of them.
                     </p>
                     <p className="mb-5">
-                        I also, work as a freelancer developer and ghost worker,
-                        helping individuals and organisations create and/or
+                        Sometimes, I take freelancing and ghost work, as well.
+                        Helping individuals and organisations create and/or
                         solve their problems and challenges.
                     </p>
                     <p>

@@ -2,7 +2,7 @@
 
 My name is Shivam Rathore, I go by the username **_@Shivam010_**, in most of the places. I am
 a technology enthusiast and an open-source contributor who currently, works as a Senior Software
-Engineer at **_@Appointy_**, an online scheduling platform.
+Engineer in a startup.
 
 <p align="center">
   <b><i>

@@ -21,7 +21,7 @@ export function Container({
 
     const meta: Metadata = {
         title: 'Shivam Rathore • Shivam010 • ᕦ(ツ)ᕤ • A Weird Enthusiastic Programmer',
-        description: `Hello, I'm Shivam Rathore - a weird but enthusiastic programmer. I work as a Sr. Software Engineer at Appointy`,
+        description: `Hello, I'm Shivam Rathore - a weird but enthusiastic programmer, implementing ideas in public on twitter@010Shivam`,
         image: 'https://shivam010.in/banner.webp',
         ogType: 'website',
         canonicalUrlPath: router.asPath,
