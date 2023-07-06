@@ -19,16 +19,16 @@ const FooterLinks = ({
     return (
         <div>
             {isInternal ? (
-                <Link href={href}>
-                    <a
-                        title={title}
-                        className={
-                            'text-rang-500 hover:text-rang-600 transition ' +
-                            className
-                        }
-                    >
-                        {children}
-                    </a>
+                <Link
+                    passHref
+                    href={href}
+                    title={title}
+                    className={
+                        'text-rang-500 hover:text-rang-600 transition ' +
+                        className
+                    }
+                >
+                    {children}
                 </Link>
             ) : (
                 <ExternalLink href={href}>

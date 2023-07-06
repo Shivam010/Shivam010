@@ -44,11 +44,6 @@ module.exports = {
                 permanent: true,
             },
             {
-                source: '/',
-                destination: 'https://www.threads.net/@shivam010.in',
-                permanent: true,
-            },
-            {
                 source: '/my',
                 destination: 'https://shivamrathore.com',
                 permanent: true,
@@ -61,16 +56,6 @@ module.exports = {
             {
                 source: '/github',
                 destination: 'https://github.com/Shivam010',
-                permanent: true,
-            },
-            {
-                source: '/tw',
-                destination: 'https://twitter.com/intent/follow?user_id=701765134574817280',
-                permanent: true,
-            },
-            {
-                source: '/twitter',
-                destination: 'https://twitter.com/intent/follow?user_id=701765134574817280',
                 permanent: true,
             },
         ];
