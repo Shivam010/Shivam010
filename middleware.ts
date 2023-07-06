@@ -57,11 +57,8 @@ export default function middleware(req: NextRequest, ev: NextFetchEvent) {
     const isBot = detectBot(req);
 
     if (isBot) {
-        return NextResponse.rewrite(new URL(info.image, req.url), {
-            headers: [
-                ['Content-Type', 'image/png'],
-                ['Cache-Control', 'public, max-age=31536000, immutable'],
-            ],
+        return NextResponse.rewrite(new URL('/_ogp' + path, req.url), {
+            headers: [['Cache-Control', 'public, max-age=31536000, immutable']],
         });
     }
 
