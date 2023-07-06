@@ -15,7 +15,7 @@ export const ogInfo: { [key: string]: OgInfoProps } = {
         title: 'Shivam Rathore (shivam010.in) | Threads.net',
         description:
             "I quit my job to live and work for myself on my own terms. Let's grow together! My Projects: divity.app, esmile.app",
-        image: '/og/threads.webp',
+        image: '/og/threads.png',
     },
     '/threads': {
         dest: 'https://www.threads.net/@shivam010.in',
@@ -23,7 +23,7 @@ export const ogInfo: { [key: string]: OgInfoProps } = {
         title: 'Shivam Rathore (shivam010.in) | Threads.net',
         description:
             "I quit my job to live and work for myself on my own terms. Let's grow together! My Projects: divity.app, esmile.app",
-        image: '/og/threads.webp',
+        image: '/og/threads.png',
     },
     '/tw': {
         dest: 'https://twitter.com/intent/follow?user_id=701765134574817280',
@@ -31,7 +31,7 @@ export const ogInfo: { [key: string]: OgInfoProps } = {
         title: 'Shivam Rathore (@010Shivam) | Twitter',
         description:
             "I quit my job to live and work for myself on my own terms. Let's grow together! My Projects: divity.app, esmile.app",
-        image: '/og/twitter.webp',
+        image: '/og/twitter.png',
     },
     '/twitter': {
         dest: 'https://twitter.com/intent/follow?user_id=701765134574817280',
@@ -39,23 +39,30 @@ export const ogInfo: { [key: string]: OgInfoProps } = {
         title: 'Shivam Rathore (@010Shivam) | Twitter',
         description:
             "I quit my job to live and work for myself on my own terms. Let's grow together! My Projects: divity.app, esmile.app",
-        image: '/og/twitter.webp',
+        image: '/og/twitter.png',
     },
 };
 
 export const config = {
-    matcher: Object.keys(ogInfo),
+    matcher: ['/', '/tw', '/twitter', '/threads'],
 };
 
 export default function middleware(req: NextRequest, ev: NextFetchEvent) {
     const path = req.nextUrl.pathname;
     const info = ogInfo[path];
+
+    console.log(path, info);
     if (!info) return NextResponse.next();
 
     const isBot = detectBot(req);
 
     if (isBot) {
-        return NextResponse.rewrite(new URL(`/_ogp${path}`, req.url));
+        return NextResponse.rewrite(new URL(info.image, req.url), {
+            headers: [
+                ['Content-Type', 'image/png'],
+                ['Cache-Control', 'public, max-age=31536000, immutable'],
+            ],
+        });
     }
 
     return NextResponse.redirect(new URL(info.dest, req.url), {
