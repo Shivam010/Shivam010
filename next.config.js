@@ -28,11 +28,11 @@ module.exports = {
             },
             {
                 source: '/resume',
-                destination: '/resume.v3.pdf',
+                destination: '/resume.v4.pdf',
             },
             {
                 source: '/resume.pdf',
-                destination: '/resume.v3.pdf',
+                destination: '/resume.v4.pdf',
             },
         ];
     },
