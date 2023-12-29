@@ -20,7 +20,7 @@ You give some and you take some, just as simple as it is. And it helps, I starte
 - **upload**: An easy and portable way to interact with cloud storage in Golang. [:link:](https://github.com/Shivam010/upload)
 - **go-freeGeoIP**: A Golang client for Free IP Geolocation API with an inbuilt support for caching the location data to overcome the per hour rate limit [:link:](https://github.com/Shivam010/go-freeGeoIP)
 - **bypass-cors**: A proxy server to bypass CORS enabled server APIs. [:link:](https://github.com/Shivam010/bypass-cors)
-– **protoc-gen-redact**: A protoc plugin to redact field values for GRPC client calls to the server. [:link:](https://github.com/Shivam010/protoc-gen-redact)
+- **protoc-gen-redact**: A protoc plugin to redact field values for GRPC client calls to the server. [:link:](https://github.com/Shivam010/protoc-gen-redact)
 
 And also, a contributor to many open-source projects, some of them are:
 
@@ -28,13 +28,15 @@ And also, a contributor to many open-source projects, some of them are:
 - **lib/pq**: A Pure Go Postgres driver for database/sql. [:link:](https://github.com/lib/pq)
 - **xqueries/xdb**: An experimental database with focus on a readable codebase before performance. [:link:](https://github.com/xqueries/xdb)
 - **blendle/zapdriver**: A blazing fast, Zap-based Stackdriver logging driver. [:link:](https://github.com/blendle/zapdriver)
+- ... and many small contributions in open source projects like Uber's zap logger, Mongo db drivers, Google's Protocol Buffer plugins, etc
 
-I am, also active on Gophers [Slack](https://invite.slack.golangbridge.org/), learning and helping users solve their problems whenever I can.
+I am, also active on **[Twitter](https://twitter.com/010Shivam)** and sometimes on **[Gophers Slack](https://invite.slack.golangbridge.org/)**, learning and helping users solve their problems whenever I can. <br/>
+Let's get in touch! 🙌
 
 I also work as a freelancer and ghost worker, helping individuals and organisations achieve their goals. Got something to discuss,
 any project idea, any other help you need? or maybe wanna just say **_Hello! 👋_**
 
-**_File your query [here](https://github.com/Shivam010/Shivam010/issues) or Reach out!👇_**
+**_File your query [here](https://github.com/Shivam010/Shivam010/issues) or Reach out on [Twitter @ 010Shivam](https://twitter.com/010Shivam)!_**
 
 ## []()
 
