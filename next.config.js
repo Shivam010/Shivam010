@@ -58,6 +58,34 @@ module.exports = {
                 destination: 'https://github.com/Shivam010',
                 permanent: true,
             },
+            {
+                source: '/x',
+                destination:
+                    'https://x.com/intent/follow?user_id=701765134574817280',
+                permanent: true,
+            },
+            {
+                source: '/tw',
+                destination:
+                    'https://twitter.com/intent/follow?user_id=701765134574817280',
+                permanent: true,
+            },
+            {
+                source: '/twitter',
+                destination:
+                    'https://twitter.com/intent/follow?user_id=701765134574817280',
+                permanent: true,
+            },
+            {
+                source: '/th',
+                destination: 'https://www.threads.net/@shivam010.in',
+                permanent: true,
+            },
+            {
+                source: '/threads',
+                destination: 'https://www.threads.net/@shivam010.in',
+                permanent: true,
+            },
         ];
     },
 };

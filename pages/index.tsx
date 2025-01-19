@@ -22,14 +22,10 @@ export default function Index() {
                         <span className="text-5xl -ml-2 pr-2 float-left animate-hi">
                             👋
                         </span>{' '}
-                        By the day, I work as a Sr. Software Engineer in a
-                        startup and, as the night gathers, my watch begins
-                        either as a{' '}
-                        {externalLinkWrapper(
-                            'https://twitter.com/intent/follow?user_id=701765134574817280',
-                            '#build-in-public',
-                        )}{' '}
-                        developer on Twitter or as a serial binge-watcher. And
+                        By the day, I work as a Sr. Software Engineer at{' '}
+                        {externalLinkWrapper('https://apollo.io', 'Apollo.io')}{' '}
+                        and, as the night gathers, my watch begins either as a
+                        developer again :P or as a serial binge-watcher. Oh, and
                         Just to make it clear, I am a die-hard Harry Potter and
                         Marvel fan.
                     </p>

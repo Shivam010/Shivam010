@@ -10,7 +10,7 @@ export type OgInfoProps = {
 
 export const ogInfo: { [key: string]: OgInfoProps } = {
     '/': {
-        dest: 'https://www.threads.net/@shivam010.in',
+        dest: 'https://shivamrathore.com',
         domain: 'shivamrathore.com',
         title: 'Shivam Rathore (shivam010.in) | Threads.net',
         description:

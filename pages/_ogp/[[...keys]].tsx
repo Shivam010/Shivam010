@@ -1,4 +1,4 @@
-import { OgInfoProps, ogInfo } from 'middleware';
+import { OgInfoProps, ogInfo } from 'middleware-deprecated';
 import Head from 'next/head';
 import Link from 'next/link';
 
